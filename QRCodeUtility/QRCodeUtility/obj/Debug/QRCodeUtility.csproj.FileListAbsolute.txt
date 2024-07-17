@@ -1,0 +1,13 @@
+C:\VS Projects\QRCodeUtility\QRCodeUtility\bin\Debug\QRCodeUtility.exe.config
+C:\VS Projects\QRCodeUtility\QRCodeUtility\bin\Debug\QRCodeUtility.exe
+C:\VS Projects\QRCodeUtility\QRCodeUtility\bin\Debug\QRCodeUtility.pdb
+C:\VS Projects\QRCodeUtility\QRCodeUtility\bin\Debug\QRCoder.dll
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.csproj.AssemblyReference.cache
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.csproj.SuggestedBindingRedirects.cache
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.frmGenerateQRcode.resources
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.Properties.Resources.resources
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.csproj.GenerateResource.cache
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.csproj.CoreCompileInputs.cache
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.csproj.CopyComplete
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.exe
+C:\VS Projects\QRCodeUtility\QRCodeUtility\obj\Debug\QRCodeUtility.pdb
