@@ -32,22 +32,25 @@
             this.txtLink = new System.Windows.Forms.TextBox();
             this.lblLink = new System.Windows.Forms.Label();
             this.pbQrCode = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelLink = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbQrCode)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.panelLink.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGenerate
             // 
+            this.btnGenerate.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnGenerate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerate.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerate.Location = new System.Drawing.Point(72, 48);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(112, 40);
             this.btnGenerate.TabIndex = 0;
             this.btnGenerate.Text = "Generate";
-            this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.UseVisualStyleBackColor = false;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // txtLink
@@ -70,43 +73,61 @@
             // 
             // pbQrCode
             // 
-            this.pbQrCode.Location = new System.Drawing.Point(16, 8);
+            this.pbQrCode.BackColor = System.Drawing.Color.DimGray;
+            this.pbQrCode.Location = new System.Drawing.Point(8, 8);
             this.pbQrCode.Name = "pbQrCode";
-            this.pbQrCode.Size = new System.Drawing.Size(648, 424);
+            this.pbQrCode.Size = new System.Drawing.Size(672, 424);
             this.pbQrCode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbQrCode.TabIndex = 3;
             this.pbQrCode.TabStop = false;
             // 
-            // panel1
+            // panelLink
             // 
-            this.panel1.Controls.Add(this.txtLink);
-            this.panel1.Controls.Add(this.btnGenerate);
-            this.panel1.Controls.Add(this.lblLink);
-            this.panel1.Location = new System.Drawing.Point(24, 16);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(688, 100);
-            this.panel1.TabIndex = 4;
+            this.panelLink.BackColor = System.Drawing.Color.SteelBlue;
+            this.panelLink.Controls.Add(this.btnClear);
+            this.panelLink.Controls.Add(this.txtLink);
+            this.panelLink.Controls.Add(this.btnGenerate);
+            this.panelLink.Controls.Add(this.lblLink);
+            this.panelLink.Location = new System.Drawing.Point(24, 16);
+            this.panelLink.Name = "panelLink";
+            this.panelLink.Size = new System.Drawing.Size(688, 100);
+            this.panelLink.TabIndex = 4;
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.DimGray;
             this.panel2.Controls.Add(this.pbQrCode);
-            this.panel2.Location = new System.Drawing.Point(32, 128);
+            this.panel2.Location = new System.Drawing.Point(24, 128);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(680, 440);
+            this.panel2.Size = new System.Drawing.Size(688, 440);
             this.panel2.TabIndex = 5;
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(200, 48);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(112, 40);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // frmGenerateQRcode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 600);
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.ClientSize = new System.Drawing.Size(727, 581);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelLink);
             this.Name = "frmGenerateQRcode";
-            this.Text = "Form1";
+            this.Text = "QR Generator";
             ((System.ComponentModel.ISupportInitialize)(this.pbQrCode)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelLink.ResumeLayout(false);
+            this.panelLink.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -118,8 +139,9 @@
         private System.Windows.Forms.TextBox txtLink;
         private System.Windows.Forms.Label lblLink;
         private System.Windows.Forms.PictureBox pbQrCode;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelLink;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
